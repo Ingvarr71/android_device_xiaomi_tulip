@@ -68,6 +68,6 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     sys.autosuspend.timeout=500000 \
     drm.service.enabled=true
 
-# Mokee maintainer
+# Bootleggers maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.mk.maintainer=iodine71
+    ro.bootleg.maintainer=iodine71
