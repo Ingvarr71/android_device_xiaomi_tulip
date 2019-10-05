@@ -70,4 +70,4 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
 
 # Mokee maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.mk.maintainer=rama982
+    ro.mk.maintainer=iodine71
