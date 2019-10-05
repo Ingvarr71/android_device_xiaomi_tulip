@@ -258,5 +258,5 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1 
 persist.radio.VT_HYBRID_ENABLE=1
 
-# Mokee maintainer
-ro.mk.maintainer=iodine71
+# Bootleggers maintainer
+ro.bootleg.maintainer=iodine71
