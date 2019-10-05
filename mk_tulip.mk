@@ -22,10 +22,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit from tulip device
 $(call inherit-product, device/xiaomi/tulip/device.mk)
 
-# Inherit some common Mokee stuff.
-$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+#Boot Animation res
+TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := mk_tulip
+TARGET_GAPPS_ARCH := arm64
+
+# Inherit some common Mokee stuff.
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+
+PRODUCT_NAME := bootleg_tulip
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
 PRODUCT_MANUFACTURER := Xiaomi
@@ -42,3 +47,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := xiaomi/tulip/tulip:9/PKQ1.180904.001/V10.3.2.0.PEKMIXM:user/release-keys
 
 TARGET_VENDOR := Xiaomi
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.bootleg.maintainer="iodine71"
