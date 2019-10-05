@@ -259,4 +259,4 @@ persist.dbg.vt_avail_ovr=1
 persist.radio.VT_HYBRID_ENABLE=1
 
 # Mokee maintainer
-ro.mk.maintainer=rama982
+ro.mk.maintainer=iodine71
